@@ -77,7 +77,15 @@ public class Card : MonoBehaviour {
 
     public void setSetWinFalse()
     {
-        DeckManager._instance.assignNewCard(this.gameObject);
+        if (DeckManager._instance!=null)
+        {
+            DeckManager._instance.assignNewCard(this.gameObject);
+        }
+        if (SetTwo._instance != null)
+        {
+            SetTwo._instance.assignNewCard(this.gameObject);
+        }
+
         this.GetComponent<Animator>().SetBool("SetWin", false);
         this.GetComponent<Animator>().SetBool("Idle", true);
         this.GetComponent<Animator>().SetBool("Rotate", false);
@@ -91,6 +99,7 @@ public class Card : MonoBehaviour {
     {
         this.GetComponent<Animator>().SetBool("Scale", true);
     }
+
 }
 
 
