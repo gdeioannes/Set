@@ -3076,6 +3076,31 @@ Prefab:
       propertyPath: m_Name
       value: Card (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 212966657350761826, guid: 80e47fc5848724f0fba627dfa3aea1dc,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212966657350761826, guid: 80e47fc5848724f0fba627dfa3aea1dc,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212966657350761826, guid: 80e47fc5848724f0fba627dfa3aea1dc,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95981348226417860, guid: 80e47fc5848724f0fba627dfa3aea1dc,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95981348226417860, guid: 80e47fc5848724f0fba627dfa3aea1dc,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80e47fc5848724f0fba627dfa3aea1dc, type: 2}
   m_IsPrefabParent: 0
